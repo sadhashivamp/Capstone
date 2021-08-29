@@ -1,6 +1,9 @@
 import React, { useState }  from 'react'
 import { Link } from 'react-router-dom';
 import { Button, Menu, MenuItem } from '@material-ui/core';
+import logo from '../assets/logo.png'
+
+
 
 export const Header = () => {
     const[anchorEL, setAnchorEL] = useState(null);
@@ -15,19 +18,17 @@ export const Header = () => {
         <div>
             <header className="header">
                 <div>
-                    {/* <Link className="links" to='/'>Home</Link> */}
-                    <Button ><Link className="links" to='/'>Home</Link></Button>
+                    <img src={logo} alt="" />
+                    <Button className="links"><Link className="links-text" to='/home'>Home</Link></Button>
                     
                 </div>
 
                 <nav className='navbar'>
                     <ul>
-                    <Button className="links" aria-controls='menu' onClick={handleOpenMenu} type="submit">Log In</Button>
-                        {/* <Link className="links" to='/login'>Login</Link>
-                        <Link className="links" to='/signup'>SignUp</Link> */}
-                        <Button className="links" type="submit"><Link className="links" to='/signup'>SignUp</Link></Button>
+                        <Button className="links" aria-controls='menu' onClick={handleOpenMenu} type="submit"><Link className="links-text" to='/signup'>Log In</Link></Button>
+                        <Button className="links" aria-controls='menu' type="submit"><Link className="links-text" to='/signup'>SignUp</Link></Button>
                     </ul>
-                    <Menu style={{ marginTop:'-300px', marginLeft:"1350px" }} id='menu' onClose={handleOpenMenu} anchorEL={anchorEL} open={Boolean(anchorEL)} >
+                    <Menu style={{ marginTop:'-300px', marginLeft:"1300px", type:"dark" }} id='menu' onClose={handleOpenMenu} anchorEL={anchorEL} open={Boolean(anchorEL)} >
                     <MenuItem onClick={handleMenuClose}><Link className="links" to='/user'>User</Link></MenuItem>
                     <MenuItem onClick={handleMenuClose}><Link className="links" to='/builder'>Builder</Link></MenuItem>
                 </Menu>
