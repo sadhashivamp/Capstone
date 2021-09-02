@@ -11,6 +11,9 @@
 .chats,
 .projects,
 .post,
+.available,
+.myBids,
+.profile,
 .notifications {
   display: flex;
   height: 90vh;

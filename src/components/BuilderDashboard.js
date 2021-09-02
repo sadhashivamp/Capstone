@@ -3,13 +3,15 @@ import { Link } from "react-router-dom";
 import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
 import { useState } from "react";
-import { sidebarData } from "./SidebarData";
+import { builderData } from "./BuilderData";
 import "./Navbar.css";
 import { IconContext } from "react-icons";
-function Navbar() {
+
+function BuilderDashboard() {
   const [sidebar, setSidebar] = useState(false);
 
   const showSidebar = () => setSidebar(!sidebar);
+
   return (
     <>
       <IconContext.Provider value={{ color: "#fff" }}>
@@ -26,7 +28,7 @@ function Navbar() {
               </Link>
             </li>
             <li>
-              {sidebarData.map((item, index) => {
+              {builderData.map((item, index) => {
                 return (
                   <li key={index} className={item.cName}>
                     <Link to={item.path}>
@@ -44,4 +46,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default BuilderDashboard;
