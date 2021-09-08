@@ -43,7 +43,7 @@ export default function MediaCard() {
           Share
         </Button>
         <Button size="small" color="primary">
-          Learn More
+          Add
         </Button>
       </CardActions>
     </Card>
