@@ -19,21 +19,21 @@ import { h4 } from 'react-router-dom';
             </ul>
         </div>
         <div className="footer-colomn">
-          <h4>FAQ's</h4>
+          <h4>Contact Us</h4>
           <ul className="footer-sub-text">
-              <li><a href="#3">about us</a></li>
-              <li><a href="#3">our services</a></li>
-              <li><a href="#3">privacy policy</a></li>
-              <li><a href="#3">affiliate program</a></li>
+              <li><a href="#3">Contact</a></li>
+              <li><a href="#3">Support</a></li>
+              <li><a href="#3">Destination</a></li>
+              <li><a href="#3">Sponsorships</a></li>
             </ul>
         </div>
         <div className="footer-colomn">
-          <h4>Support</h4>
+          <h4>FAQ'S</h4>
           <ul className="footer-sub-text">
-              <li><a href="#4">about us</a></li>
-              <li><a href="#4">our services</a></li>
-              <li><a href="#4">privacy policy</a></li>
-              <li><a href="#4">affiliate program</a></li>
+              <li><a href="#4">xxxxx</a></li>
+              <li><a href="#4">xxxxxxx</a></li>
+              <li><a href="#4">xxxxx</a></li>
+              <li><a href="#4">xxxxxxx</a></li>
             </ul>
         </div>
         <div className="footer-colomn">

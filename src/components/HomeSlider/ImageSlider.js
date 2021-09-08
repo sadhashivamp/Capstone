@@ -1,30 +1,33 @@
 import React from "react";
 import "./ImageSlider.css";
-import AliceCarousel from 'react-alice-carousel';
+import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
-
 
 export default function ImageSlider() {
   return (
     <div className="App">
-     <AliceCarousel autoPlay autoPlayInterval="2100">
-      <img style={{width: 1100,
-  height: 600,
-  marginLeft: 210,
-  }} src="https://www.ie.edu/insights/wp-content/uploads/2020/11/VanSchendel-Construction.jpg" alt=""/>
-      <img style={{width: 1100,
-  height: 600,
-  marginLeft: 210,
-  }} src="https://www.pbctoday.co.uk/news/wp-content/uploads/2019/05/S-Radley-%C2%A9-Andrey-Popov-.jpg" alt=""/>
-      <img style={{width: 1100,
-  height: 600,
-  marginLeft: 210,
-  }} src="https://i0.wp.com/theconstructor.org/wp-content/uploads/2018/11/78.jpg?fit=935%2C546&ssl=1" alt=""/>
-      <img style={{width: 1100,
-  height: 600,
-  marginLeft: 210,
-  }} src="https://itrade.gov.il/india/files/2019/09/shutterstock_158663105.jpg" alt=""/>
-    </AliceCarousel>
+      <AliceCarousel autoPlay autoPlayInterval="2100">
+        <img
+          className="sldr-img"
+          src="https://www.cammconstruction.com/wp-content/uploads/2018/12/building-construction-sunset.jpg"
+          alt=""
+        />
+        <img
+          className="sldr-img"
+          src="https://www.build-review.com/wp-content/uploads/2019/12/construction-2.jpg"
+          alt=""
+        />
+        <img
+          className="sldr-img"
+          src="https://www.softwaresuggest.com/blog/wp-content/uploads/2019/09/Construction-material-management-system-on-project-sites-1068x427.png"
+          alt=""
+        />
+        <img
+          className="sldr-img"
+          src="https://www.axisbank.com/images/default-source/progress-with-us_new/home-construction-loans.jpg"
+          alt=""
+        />
+      </AliceCarousel>
     </div>
   );
 }
