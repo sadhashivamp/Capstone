@@ -1,6 +1,8 @@
 .test {
   background-color: #0cb4ce !important;
   padding: 55px;
+  margin-top: 40px;
+  position: relative;
 }
 .test-box {
   text-align: center;
@@ -13,7 +15,7 @@
 
 .test-para {
   font-size: 1.3rem;
-  color: darkslategrey;
+  color: white;
 }
 
 .test-card .slick-arrow.slick-prev,
