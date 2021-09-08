@@ -21,22 +21,24 @@ import "./App.css";
 // import MyBids from "./builder/MyBids";
 
 // import { ShowCase } from './components/ShowCase';
+import Card from "./components/Card.jsx";
 
 const App = () => {
-  return (
-    <div>
-      <Router>
-        <UserDashboard />
-        <Switch>
-          <Route path="/" exact component={UserProfile} />
-          <Route path="/projects" component={Projects} />
-          <Route path="/post" component={Post} />
-          <Route path="/notifications" component={Notifications} />
-          <Route path="/chats" component={Chats} />
-        </Switch>
-      </Router>
-    </div>
-  );
+  return <Card />;
+  // return (
+  //   <div>
+  //     <Router>
+  //       <UserDashboard />
+  //       <Switch>
+  //         <Route path="/" exact component={UserProfile} />
+  //         <Route path="/projects" component={Projects} />
+  //         <Route path="/post" component={Post} />
+  //         <Route path="/notifications" component={Notifications} />
+  //         <Route path="/chats" component={Chats} />
+  //       </Switch>
+  //     </Router>
+  //   </div>
+  // );
   // return (
   //   <div>
   //     <Router>
