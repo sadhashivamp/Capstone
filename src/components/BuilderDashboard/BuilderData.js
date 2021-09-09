@@ -6,8 +6,8 @@ import "./dashbrd.css";
 
 export const builderData = [
   {
-    title: "Profile",
-    path: "/",
+    title: "Builder Profile",
+    path: "/builderprofile",
     icon: <AiIcons.AiFillHome />,
     cName: "nav-text",
   },
@@ -25,13 +25,13 @@ export const builderData = [
   },
   {
     title: "Chat",
-    path: "/chats",
+    path: "/Bchats",
     icon: <IoIcons.IoMdPeople />,
     cName: "nav-text",
   },
   {
     title: "Notifications",
-    path: "/notifications",
+    path: "/Bnotifications",
     icon: <FaIcons.FaEnvelopeOpenText />,
     cName: "nav-text",
   },

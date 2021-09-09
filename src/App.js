@@ -39,25 +39,23 @@ const App = () => {
       </Router>
 
       <Router>
-        <Route path="/userdashboard" exact component={UserDashboard} />
-        <Switch>
-          <Route path="/usrprfl" exact component={UsrPrfl} />
-          <Route path="/projects" component={Projects} />
-          <Route path="/post" component={Post} />
-          <Route path="/notifications" component={Notifications} />
-          <Route path="/chats" component={Chats} />
-        </Switch>
+        <Route exact path="/userdashboard" component={UserDashboard} />
+
+        <Route exact path="/usrprfl" component={UsrPrfl} />
+        <Route exact path="/projects" component={Projects} />
+        <Route exact path="/post" component={Post} />
+        <Route exact path="/notifications" component={Notifications} />
+        <Route exact path="/chats" component={Chats} />
       </Router>
 
       <Router>
-        <Route path="/builderdashboard" exact component={BuilderDashboard} />
-        <Switch>
-          <Route path="/" exact component={BuilderProfile} />
-          <Route path="/projects" component={MyBids} />
-          <Route path="/post" component={Available} />
-          <Route path="/notifications" component={Notifications} />
-          <Route path="/chats" component={Chats} />
-        </Switch>
+        <Route exact path="/builderdashboard" component={BuilderDashboard} />
+
+        <Route exact path="/builderprofile" component={BuilderProfile} />
+        <Route exact path="/projects" component={MyBids} />
+        <Route exact path="/post" component={Available} />
+        <Route exact path="/Bnotifications" component={Notifications} />
+        <Route exact path="/Bchats" component={Chats} />
       </Router>
       <Services />
       <Testimonials />
