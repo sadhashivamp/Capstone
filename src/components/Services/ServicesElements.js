@@ -9,7 +9,7 @@ export const ServicesContainer = styled.div`
   align-items: center;
   background: #010696;
   position: relative;
-  margin-top: 50px;
+  margin-top: 500px;
   @media screen and (max-width: 768px) {
     height: 1100px;
   }
