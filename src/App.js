@@ -24,7 +24,14 @@ import "./App.css";
 import Card from "./components/Card.jsx";
 
 const App = () => {
-  return <Card />;
+  return (
+    <>
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+    </>
+  );
   // return (
   //   <div>
   //     <Router>
