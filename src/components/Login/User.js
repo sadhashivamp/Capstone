@@ -56,6 +56,9 @@ const User = () => {
                       Signin
                     </button>
                   </NavLink>
+                  <NavLink to="/" className="F-p">
+                    Forget Password
+                  </NavLink>
                 </div>
               </form>
             </div>

@@ -24,7 +24,7 @@ const Builder = () => {
               <form className="register-form" id="register-form">
                 <div className="form-group">
                   <label htmlFor="email">
-                    <i class="zmdi zmdi-email"></i>
+                    <i class="zmdi zmdi-email zmdi-hc-2x"></i>
                   </label>
                   <input
                     className="input"
@@ -38,7 +38,7 @@ const Builder = () => {
 
                 <div className="form-group">
                   <label htmlFor="password">
-                    <i class="zmdi zmdi-lock"></i>
+                    <i class="zmdi zmdi-lock zmdi-hc-2x" size="medium"></i>
                   </label>
                   <input
                     className="input"
@@ -55,6 +55,9 @@ const Builder = () => {
                     <button type="button" class="btn btn-outline-success">
                       Signin
                     </button>
+                  </NavLink>
+                  <NavLink to="/" className="F-p">
+                    Forget Password
                   </NavLink>
                 </div>
               </form>
