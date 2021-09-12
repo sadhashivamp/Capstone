@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 register css .bg-light {
   background-color: #ffff !important;
 }
@@ -260,4 +261,28 @@ h2::after {
 }
 .carousel-indicators li.active {
   background: #888 !important;
+=======
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.userProfile,
+.chats,
+.projects,
+.post,
+.available,
+.myBids,
+.profile,
+.notifications {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+>>>>>>> a60b16c8bcbf9e2fcd5d48e76d1ea8aaecf89797
 }

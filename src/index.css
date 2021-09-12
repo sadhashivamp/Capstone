@@ -1,6 +1,10 @@
 body {
+<<<<<<< HEAD
   color: burlywood;
   margin: 0;
+=======
+  margin: 100;
+>>>>>>> a60b16c8bcbf9e2fcd5d48e76d1ea8aaecf89797
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -12,8 +16,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+<<<<<<< HEAD
 
 .signup-content {
   display: flex;
   justify-content: center;
 }
+=======
+>>>>>>> a60b16c8bcbf9e2fcd5d48e76d1ea8aaecf89797
