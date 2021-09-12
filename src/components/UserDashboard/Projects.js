@@ -76,13 +76,11 @@ export default function Projects() {
         <CardContent>
           <label className={classes.input}>Project Details</label>
           <br />
-          <input
+          <textarea
             className={classes.inputP}
-            type="text"
-            id="AboutProject"
+            name="message"
             placeholder="Tell Us About Your Project"
-            name="project"
-          />
+          ></textarea>
         </CardContent>
 
         <CardContent className={classes.input3}>
