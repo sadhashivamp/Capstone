@@ -8,7 +8,7 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
     <div className="cap-body">
-      <nav className="navbar navbar-expand-lg">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
         <NavLink className="navbar-brand" to="home">
           <img
             className="nav-img"
@@ -33,7 +33,7 @@ const Navbar = () => {
                 aria-haspopup="true"
                 aria-expanded="false"
               >
-                <button type="button" class="btn btn-outline-secondary btn-lg">
+                <button type="button" class="btn btn-outline-success btn-lg">
                   Login
                 </button>
               </NavLink>
@@ -49,7 +49,7 @@ const Navbar = () => {
 
             <li className="nav-item">
               <NavLink className="nav-link" to="/signup">
-                <button type="button" class="btn btn-outline-secondary btn-lg">
+                <button type="button" class="btn btn-outline-success btn-lg">
                   SignUp
                 </button>
               </NavLink>
