@@ -1,0 +1,111 @@
+.cap-body {
+  background-color: rgba(236, 115, 17, 0.404);
+}
+.navbar {
+  background-color: rgb(219, 193, 189);
+}
+.nav-img {
+  width: 100px;
+  height: 70px;
+}
+
+.dropdown-menu {
+  margin-left: -50px;
+
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.home-page {
+  text-align: center;
+  justify-content: center;
+}
+
+.signin-image {
+  width: 400px;
+  height: 400px;
+}
+
+.signin-content {
+  display: flex;
+  justify-content: center;
+}
+.Signin-form {
+  background-color: rgb(201, 201, 214);
+  text-align: center;
+  padding: 70px;
+  border-radius: 40px;
+  width: 600px;
+  margin-bottom: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.sign-in {
+  margin-top: 20px;
+  margin-left: 150px;
+  margin-right: 150px;
+  padding: 10px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.F-p {
+  text-decoration: none;
+  padding: 0 0 0 20px;
+  font-size: 18px;
+  color: #7f2092;
+}
+
+.signup-image {
+  width: 400px;
+  height: 400px;
+}
+.signup-content {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Signup-form {
+  background-color: rgb(201, 201, 214);
+  text-align: center;
+  padding: 70px;
+  border-radius: 40px;
+  width: 600px;
+  margin-bottom: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.signup {
+  margin-top: 20px;
+  margin-left: 150px;
+  margin-right: 150px;
+  padding: 10px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.signup-image-text {
+  text-align: center;
+}
+.register-form {
+  margin-top: 40px;
+}
+.input {
+  width: 300px;
+}
+
+.signup-image-link {
+  font-size: large;
+}
+.login-image-link {
+  font-size: large;
+}
+/* .form-group {
+  display: inline;
+} */
